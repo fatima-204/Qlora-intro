@@ -1,0 +1,18 @@
+# Core
+torch>=2.0.1
+transformers>=4.40.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+accelerate>=0.27.0
+
+# Data/Utils
+datasets>=2.18.0
+tqdm>=4.66.0
+sentencepiece>=0.2.0
+
+# HF Ecosystem
+huggingface_hub>=0.20.0
+trl>=0.7.0
+
+# Optional
+wandb>=0.16.0  # For logging
